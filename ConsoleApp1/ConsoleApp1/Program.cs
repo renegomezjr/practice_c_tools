@@ -13,7 +13,7 @@ namespace ConsoleApp1
             Console.WriteLine("this is a test, " + name);
 
             Console.WriteLine("How old are you?");
-            int age = Convert.ToInt32(Console.ReadLine());
+            int age = int.Parse(Console.ReadLine());
             if(age < 20)
             {
                 Console.WriteLine("Wow, you are young!");
